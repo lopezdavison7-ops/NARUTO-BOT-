@@ -2,13 +2,12 @@
   "name": "naruto-bot",
   "version": "1.0.0",
   "scripts": {
-    "start": "tsx index.ts",
-    "dev": "tsx watch index.ts"
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.12",
     "@hapi/boom": "^10.0.1",
-    "dotenv": "^16.4.7",
     "node-cache": "^5.1.2",
     "pino": "^9.6.0"
   },
