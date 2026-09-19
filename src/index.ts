@@ -7,13 +7,14 @@ import { askPhone } from '@/core/ask';
 import { createBot } from '@/core/bot';
 import { register } from '@/commands/handler';
 
-// ─── REGISTRAR COMANDOS ───
-// Agrega aquí cada comando nuevo
+// ─── COMANDOS: SYSTEM ───
 import { pingCommand } from '@/commands/system/ping';
 import { menuCommand } from '@/commands/system/menu';
+import { ownerCommand } from '@/commands/system/owner';
 
 register(pingCommand);
 register(menuCommand);
+register(ownerCommand);
 
 // ─── ARRANQUE ───
 async function main() {
